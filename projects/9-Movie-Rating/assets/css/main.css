@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+body {
+    background-color: #ecf0f1;
+    padding: 5px 60px 30px;
+}
+
+.navParent {
+    width: 100%;
+    height: 100px;
+    background-color: orangered;
+}
+
+nav {
+    margin: auto;
+}
+
+.navSearch {
+    width: 50%;
+    height: 100%;
+}
+
+.navbutton {
+    width: 50%;
+    height: 100%;
+}
+
+.search {
+    width: 60%;
+    min-height: 30%;
+    background-color: whitesmoke;
+}
+
+.icon {
+    width: 20%;
+    height: 80%;
+    padding-right: 20px;
+    background-image: url(../images/moiveIcon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button {
+    height: 30%;
+    width: 30%;
+    color: white;
+    margin-right: 20px;
+}
+
+.login {
+    margin-left: 30px;
+}
+
+.signUp {
+    margin-left: -30px;
+}
+
+.parent {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+    gap: 2px;
+}
+
+.mostPopular {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 20px;
+}
+
+.mostPopular h2 {
+    margin: 0;
+    color: #ededee;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 3px;
+    font-family: Impact,Helvetica,Arial,Sans-Serif;
+}
+
+.poster {
+    height: 360px;
+    width: 19.9%;
+    background-color: turquoise;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.poster a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.poster:nth-child(2) {
+    background-image: url(../images/HungerGames.jpg);
+}
+
+.poster:nth-child(3) {
+    background-image: url(../images/IT.jpg);
+}
+
+.poster:nth-child(4) {
+    background-image: url(../images/Potter.png);
+}
+
+.poster:nth-child(5) {
+    background-image: url(../images/BlackPanther.jpg);
+}
+
+.poster:nth-child(6 ) {
+    background-image: url(../images/BreakingBad.jpg);
+}
+/****************************
+         Filler
+*****************************/
+.filler {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    
+}
+
+/****************************
+       smaller posters
+*****************************/
+.posterQueue h2 {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 22px;
+    font-family: Impact,Helvetica,Arial,Sans-Serif;
+}
+.smallPoster {
+    min-height: 200px;
+    width: 12%;
+    background-color: indigo;
+    gap: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smallPosterParent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smallPoster:nth-child(1) {
+    background-image: url(../images/RickAndMorty.jpg);
+}
+.smallPoster:nth-child(2) {
+    background-image: url(../images/fast.jpg);
+}
+.smallPoster:nth-child(3) {
+    background-image: url(../images/Interstellar.jpg);
+}
+.smallPoster:nth-child(4) {
+    background-image: url(../images/BadBoys.jpg);
+}
+.smallPoster:nth-child(5) {
+    background-image: url(../images/Joker.jpeg);
+}
+.smallPoster:nth-child(6) {
+    background-image: url(../images/AdvengersEndgame.jpg);
+}
+.smallPoster:nth-child(7) {
+    background-image: url(../images/GuardiansOfthe.jpg);
+}
+.smallPoster:nth-child(8) {
+    background-image: url(../images/TheXFiles.jpg);
+}
+
+/****************************
+        HungerGames
+****************************/
+.backDrop {
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+}
+.trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    width: 100%;
+    min-height: 365px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h2 {
+    width: 50%;
+    font-size: 25px;
+    font-family: Impact,Arial,sans-serif;
+    text-align: center;
+
+}
+.trailerInfo {
+    width: 100%;
+}
+.information h3 {
+    font-family: Arial,sans-serif;
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.subPoster {
+    height: 300px;
+    width: 20%;
+    background-color: turquoise;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-left: 50px;
+    background-size: 100% 100%;
+    background-image: url(../images/HungerGames.jpg);
+}
+
+.movieData {
+    width: 50%;
+}
+
+.movieData h2 {
+    font-family: Impact,Arial,sans-serif;
+    font-weight: 100;
+    text-align: center  ;
+}
+
+.movieInfo {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+}
+
+.movieTemp {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.movieTemp h4 {
+    margin: 2px;
+}
+
+.movieStat {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.movieStat h4 { 
+    margin: 2px;
+    margin-left: 5px;
+}
+
+
+/****************************
+       Reusable Classes
+*****************************/
+
+.addFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBorder {
+    border: 1px solid gray;
+    border-radius: 3px;
+}

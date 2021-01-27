@@ -1,0 +1,135 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #34495e;
+}
+
+.FrontNav {
+    background-color: #95a5a6;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    justify-content: space-evenly;
+}
+
+.FrontHeader {
+    background-color: #455a6f;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center
+}
+
+.FrontHeader h1 {
+    margin-left: 5%;
+    font-size: 50px;
+}
+
+.FSection1 {
+    background-color: #23384d; 
+    min-height: 400px;
+    margin-bottom: 10px; 
+    display: flex; 
+    justify-content:  space-evenly;
+}
+
+.FSection2 {
+    background-color: #23384d; 
+    min-height: 400px;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.FSection1 section,.FSection2 section {
+    flex: 1;
+    padding: 20px;
+} 
+.Firstp {
+    margin-right: 20px;
+}
+
+.FSection1 p:nth-child(1) {
+    color: #c3cfd4;
+    font-size: 20px;
+}
+
+.FSection1 img {
+    width: 100%;
+}
+
+.FSection2 p:nth-child(1) {
+    color: #c3cfd4;
+    font-size: 20px;
+}
+
+.FSection2 p:nth-child(2) {
+    color: #c3cfd4;
+    font-size: 20px;
+}
+
+
+.FrontNav section {
+    background-color:#c3cfd4;
+    height: 50px;
+    width: 150px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all .4s;
+    /* box-shadow: -1px -1px 2px black, 1px 1px 2px black;  */
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.FrontNav a {
+    border-radius: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.FrontNav section:hover { 
+    background-color:  #b2bec3; 
+}
+
+.FrontFooter {
+    background-color: #7f8c8d; 
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.FrontFooter section {
+    min-height: 100px;
+    min-width: 50px;
+}
+
+.FrontFooter h2 {
+    font-size: 20px;
+}
+
+.FrontFooter ul {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    color: black;
+    padding-left: 15%;
+    margin-top: 5px;
+}
+
+.FrontFooter ul a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.FrontFooter ul p {
+    padding: 2px;
+}
