@@ -1,3 +1,52 @@
+@charset "utf-8";
+
 body {
-    background-color: gray;
+    background-color: #f1f1f1;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    
+    background-color: coral;
+}
+
+#unique {
+    width: 100px;
+    height: 100px;
+
+    background-color: cadetblue;
+}
+
+/* Utility classes */
+.m-1 {
+    margin: 10px;
+}
+
+.mx-1 {
+
+}
+
+.my-1 {
+
+}
+
+.p-1 {
+
+}
+
+.px-1 {
+
+}
+
+.py-1 {
+
+}
+
+.rounded-5 {
+    border-radius: 5px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
 }
