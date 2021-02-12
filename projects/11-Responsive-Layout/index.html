@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tablet.css" media="screen and (max-width: 950px)">
 </head>
 <body>
     <div class="container">
-        <header></header>
-        <nav></nav>
-        <main>
-            <aside class="main-left"></aside>
-            <section class="main-center"></section>
-            <aside class="main-right"></aside>
+        <header class="addFlex">
+            <h1>My<span class="spanLogo">Logo.</span></h1>
+            <nav>
+                <ul class="addFlex">
+                    <li class="active">Start</li>
+                    <li>About</li>
+                    <li>Pricing</li>
+                    <li>Content</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="addFlex">
+            <aside class="mainLeft"></aside>
+            <section class="mainCenter"></section>
+            <aside class="mainRight"></aside>
         </main>
         <footer></footer>
     </div>
