@@ -1,13 +1,54 @@
 @charset "utf-8";
 
+body {
+    overflow-y: hidden;
+}
+
 header {
     padding: 0;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 header h1 {
     margin: 0;
+}
+
+.mobileMenuIcon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    margin-top: 140px;
+}
+
+.mobileMenu {
+    display: block;
+    margin-top: 70px;
+    padding: 10px;
+    width: 40%;
+    margin-left: 700px;
+    transition: all .4s;
+}
+
+.mobileMenu ul {
+    flex-direction: column;
+    align-items: center ;
+}
+
+#checkboxHack:checked ~ .mobileMenu {
+    margin-left: 300px;
+}
+
+.mobileMenu li {
+    border-bottom: 1px solid black;
 }
 
 nav {
@@ -15,5 +56,5 @@ nav {
 }
 
 .spanLogo {
-    color: #FFF;
+    color: #00f365;
 }

@@ -36,6 +36,18 @@ header h1 {
     color: #007AF3;
 }
 
+.mobileMenuIcon {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+input[type="checkBox"] {
+    display: none;
+}
+
 nav {
     flex: 1;  
 }
@@ -44,6 +56,10 @@ nav ul {
     list-style: none;
     justify-content: space-evenly;
     font-size: 22px;
+    cursor: pointer;
+}
+
+nav li {
     cursor: pointer;
 }
 
