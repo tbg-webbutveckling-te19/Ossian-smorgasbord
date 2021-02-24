@@ -84,6 +84,15 @@ footer {
     background-color: #3E4043;
 }
 
+footer section {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section h2 {
+
+}
 /* Utility Classes */
 
 .addFlex {

@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 body {
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 header {
-    padding: 0;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     position: relative;
