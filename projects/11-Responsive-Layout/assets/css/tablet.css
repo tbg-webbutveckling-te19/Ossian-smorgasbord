@@ -32,6 +32,10 @@ main {
     min-height: 1000px;
 }
 
+footer  {
+    flex-direction: column;
+}
+
 .mainLeft {
     order: 2;
     border-bottom: 2px solid #DFDFDF;
