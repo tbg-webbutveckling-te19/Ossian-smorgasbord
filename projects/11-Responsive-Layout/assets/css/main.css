@@ -31,11 +31,15 @@ header {
 
 .header-absolute {
     position: absolute;
-    background-color: #639;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 33%;
     padding: 10px;
+    cursor: pointer;
+}
+
+.header-absolute img {
+    margin-right: 10px;
 }
 
 header h1 {
