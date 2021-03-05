@@ -91,8 +91,37 @@ main {
 .mainCenter {
     background-color: #5F6C7E;
     flex: 4;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    justify-content: space-evenly;
 }
 
+.show {
+    height: 400px;
+    width: 40%;
+    background-color: #6F7D8F;
+    margin: 10px;
+    
+}
+
+.image {
+    min-height: 200px;
+    width: 100%;
+    background-image: url(../images/Fast-Car.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.show h1 {
+    margin: 10px;
+    font-size: 27px;
+}
+
+.show h2 {
+    margin: 10px;
+    font-size: 15px;
+}
 footer {
     width: 100%;
     height: auto;
