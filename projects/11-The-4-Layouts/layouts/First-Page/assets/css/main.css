@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Utility Classes */
+
+.addFlex {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: stretch; */
+    /* flex-direction: row; */
+}
