@@ -157,10 +157,71 @@ main {
     align-items: center;
 }
 
-.onHover {
+.onHover, .onHover2 {
     height: 270px;
     width: 230px;
-    background-color: lightgray;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onHover:nth-child(1) .image {
+    background-image: url(../images/cSharp.png);
+}
+.onHover:nth-child(2) .image {
+    background-image: url(../images/VRProduct.png);
+}
+.onHover:nth-child(3) .image {
+    background-image: url(../images/Coding.png);
+}
+.onHover:nth-child(4) .image {
+    background-image: url(../images/Computer.jpg);
+}
+
+.onHover2:nth-child(1) .image {
+    background-image: url(../images/cSharp.png);
+}
+.onHover2:nth-child(2) .image {
+    background-image: url(../images/cSharp.png);
+}
+.onHover2:nth-child(3) .image {
+    background-image: url(../images/cSharp.png);
+}
+.onHover2:nth-child(4) .image {
+    background-image: url(../images/cSharp.png);
+}
+
+.image {
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    transition: 500ms;
+    border-radius: 4px;
+}
+
+.image:hover {
+    filter: brightness(120%);
+}
+
+
+.onHover h1, .onHover2 h1 {
+    padding: 2px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+}
+
+.onHover h2, .onHover2 h2 {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 10px;
+    background-color: #b1b1b1;
+    border-radius: 10px;
 }
 
 footer {
