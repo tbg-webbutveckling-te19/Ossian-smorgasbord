@@ -179,16 +179,16 @@ main {
 }
 
 .onHover2:nth-child(1) .image {
-    background-image: url(../images/cSharp.png);
+    background-image: url(../images/Turtle.png);
 }
 .onHover2:nth-child(2) .image {
-    background-image: url(../images/cSharp.png);
+    background-image: url(../images/Bird.png);
 }
 .onHover2:nth-child(3) .image {
-    background-image: url(../images/cSharp.png);
+    background-image: url(../images/Monkey.png);
 }
 .onHover2:nth-child(4) .image {
-    background-image: url(../images/cSharp.png);
+    background-image: url(../images/Legal.png);
 }
 
 .image {
@@ -248,13 +248,26 @@ footer {
 .contactInfo h1 {
     width: 60%;
     height: 15%;
-    background-color: gray;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contactInfo h2 {
+.links {
     width: 100%;
     height: 40%;
-    background-color: gray;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.links h2 {
+    font-size: medium;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 .siteMap {
@@ -267,7 +280,12 @@ footer {
 .siteMap h1 {
     width: 60%;
     height: 15%;
-    background-color: gray;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconHolder {
@@ -277,10 +295,15 @@ footer {
     align-self: left;
 }
 
+
 .socialIcon {
     width: 30%;
     height: 100%;
-    background-color: gray;
+}
+
+.socialIcon img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Utility Classes */
