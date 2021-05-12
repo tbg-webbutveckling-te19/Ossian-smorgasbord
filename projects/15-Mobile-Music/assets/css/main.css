@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    height: 100vh;
+    width: 428px;
+    background-image: linear-gradient(
+        blue 40%,
+        darkblue 
+    );
+    padding: 20px;
+}
+
+header {
+    height: 225px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.brandName {
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.profile {
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url(../images/DJProfile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid silver;
+}
+
+main {
+    height: 150px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+main input {
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+
+    outline: none;
+}
+
+.login {
+    height: 20px;
+    font-size: 15px;
+    color:	greenyellow;
+    cursor: pointer;
+}
+
+nav {
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav h1 {
+    font-size: 15px;
+    color: grey;
+}
+
+nav h2 {
+    font-size: 15px;
+    color: 	#03a323;
+    cursor: pointer;
+}
+
+/* Utility Classes */
+
+.addFlex {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: stretch; */
+    /* flex-direction: row; */
+}
