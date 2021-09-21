@@ -1,0 +1,122 @@
+
+nav div {
+    width: 0%;
+}
+
+.navHolder {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+
+.SignUp {
+    width: 50%;
+}
+
+.SignUp a {
+    width: 30%;
+}
+
+main {
+    background-position: center;
+    background-image: url(../images/computer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainHolder {
+    justify-content: center;
+}
+
+.mainTextBlock {
+    width: 40%;
+}
+
+.mainTitle h1 {
+    color: #A2FC5E;
+    text-shadow: black 2px 2px 2px;
+}
+.mainTextBlock h2 {
+    color: #A2FC5E;
+    text-shadow: black 2px 2px 2px;
+}
+
+.tryKelp h2 {
+    color: black;
+    text-shadow: none;
+}
+
+.mainPhoto {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    .navHolder {
+        width: 70%;
+    }
+    
+    
+    .SignUp {
+        width: 30%;
+    }
+    
+    .SignUp a {
+        width: 35%;
+        min-width: 100px;
+    }
+
+    .mainTextBlock {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .navHolder h1 {
+        font-size: 22px;
+    }
+
+    .SignUp h1 {
+        font-size: 22px;
+    }
+
+    .mainTextBlock {
+        width: 50%;
+    }
+
+    .mainTitle h1 {
+        font-size: 40px;
+    }
+    .mainTextBlock h2 {
+        font-size: 20px;
+    }
+
+    .mainTextBlock {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+
+    .mainTextBlock {
+        width: 58%;
+    }
+
+    .mainTitle h1 {
+        font-size: 40px;
+    }
+    .mainTextBlock h2 {
+        font-size: 20px;
+    }
+
+    .mainTextBlock {
+        height: 50%;
+    }
+}
+
+
+
+
+

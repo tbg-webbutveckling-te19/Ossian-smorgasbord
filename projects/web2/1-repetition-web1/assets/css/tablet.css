@@ -1,0 +1,11 @@
+body {
+    background-color: magenta;
+}
+
+.mainNav {
+    flex-direction: column;
+}
+
+.mainNav a {
+    color: white;
+}

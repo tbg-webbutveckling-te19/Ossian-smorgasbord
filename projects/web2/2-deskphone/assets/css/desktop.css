@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+nav div {
+    width: 41%;
+    height: 100%;
+}
+
+.navHolder {
+    width: 39%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navHolder h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.navHolder a {
+    text-decoration: none;
+}
+
+.SignUp {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.SignUp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 50%;
+    height: 80%;
+    background-color: #72F0C2;
+    color: black;
+    border-radius: 10px;
+}
+
+.SignUp h1 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+main {
+    width: 100%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHolder {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.mainHolder div {
+    width: 10%;
+}
+
+.mainTextBlock {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainTitle h1 {
+    font-size: 50px;
+    color: #707070;
+}
+
+.mainTextBlock h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #707070;
+}
+
+.mainText {
+    padding-bottom: 15px;
+}
+
+.tryKelp a {
+    text-decoration: none;
+}
+
+.tryKelp h2 {
+    display: inline;
+    background-color: #72F0C2;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.mainPhoto {
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+    background-position: center;
+    background-image: url(../images/computer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
