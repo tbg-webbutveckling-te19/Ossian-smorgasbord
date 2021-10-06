@@ -20,6 +20,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+
+    /* grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-auto-flow: column; */
 }
 
 .gridItem {
