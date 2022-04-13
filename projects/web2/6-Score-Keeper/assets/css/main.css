@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.points {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.playingTo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buttons {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}

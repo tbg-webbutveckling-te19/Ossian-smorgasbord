@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: cadetblue;
+}
+
+#userInput {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin: auto;
+    display: block;
+}
+
+#showSubject {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#showDay {
+    text-align: center;
+    font-size: 50px;
+}
+
+#square {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+#draw {
+    width: 150px;
+    height: 50px;
+    outline: none;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#congratsText {
+    width: 200px;
+    height: 400px;
+}
+
+.square {
+    height: 500px;
+    width: 500px;
+
+    border: 2px groove black;
+    box-shadow: 5px 10px 15px black;
+}
+

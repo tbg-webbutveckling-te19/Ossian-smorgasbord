@@ -1,0 +1,21 @@
+.some-class {
+    color: red;
+    border: 1px black solid;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.another-class {
+    color: purple;
+    font-weight: bold;
+
+}
+
+img {
+    display: block;
+} 
+
+.todo {
+    text-decoration: line-through;
+    color: #eee;
+}
