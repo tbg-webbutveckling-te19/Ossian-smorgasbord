@@ -183,8 +183,10 @@ body {
 }
 
 .rotate:nth-child(3):hover {
-    transform: rotate(100000deg) scale(2);
+    transform: rotate(10000deg) scale(6);
     border-radius: 100%;
+    background-color: blue;
+ 
 }
 
 .rotate:nth-child(4):hover {

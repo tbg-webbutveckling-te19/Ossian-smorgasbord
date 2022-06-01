@@ -1,0 +1,27 @@
+.time {
+    height: 33%;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.otherDates {
+    height: 33%;
+    font-size: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    height: 33%;
+    height: 33%;
+    font-size: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

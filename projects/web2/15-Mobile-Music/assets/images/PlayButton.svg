@@ -1,0 +1,4 @@
+<svg id="PlayButton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="15" cy="15" r="15" fill="#0006c2"/>
+  <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M14.21,6.291,2.424.195A1.613,1.613,0,0,0,0,1.4v12.19A1.618,1.618,0,0,0,2.424,14.8L14.21,8.711a1.322,1.322,0,0,0,0-2.42Z" transform="translate(8 7.998)" fill="#e7e7e7"/>
+</svg>
